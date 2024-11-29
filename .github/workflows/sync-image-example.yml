@@ -39,3 +39,5 @@ jobs:
       run: |
         # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
          skopeo copy docker://docker.io/hhyo/archery docker://crpi-6r47xrxntld6fmkq.cn-shenzhen.personal.cr.aliyuncs.com/seek_mirrors/archery:latest
+         skopeo copy docker://docker.io/hanchuanchuan/goinception docker://crpi-6r47xrxntld6fmkq.cn-shenzhen.personal.cr.aliyuncs.com/seek_mirrors/goinception
+
